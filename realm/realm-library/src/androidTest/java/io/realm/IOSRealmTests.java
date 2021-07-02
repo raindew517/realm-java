@@ -35,7 +35,6 @@ import io.realm.entities.IOSAllTypes;
 import io.realm.entities.IOSChild;
 import io.realm.internal.OsObjectStore;
 import io.realm.internal.Table;
-import io.realm.rule.TestRealmConfigurationFactory;
 
 import static io.realm.internal.test.ExtraTests.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
@@ -46,7 +45,6 @@ import static org.junit.Assert.assertTrue;
 /**
  * This class test interoperability with Realms created on iOS.
  */
-@Ignore("FIXME: See https://github.com/realm/realm-java/issues/6789")
 @RunWith(AndroidJUnit4.class)
 public class IOSRealmTests {
 
